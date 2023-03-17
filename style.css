@@ -75,8 +75,17 @@
     top: 2vh;
     left: 0;
     width: 100%;
+    mix-blend-mode: difference;
 }
 
+@keyframes moveLeft {
+    0% {
+        transform:translateX(0);
+    }
+    100% {
+        transform:translateX(-3000vw);
+    }
+}
 
 .marquee span{
     display: block;
@@ -84,4 +93,8 @@
     animation: moveLeft 250s infinite;
     will-change: transform;
     white-space: nowrap;
+}
+
+.mix-difference{
+
 }

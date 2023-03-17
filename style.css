@@ -22,7 +22,7 @@ body {
   
   .intro {
       background-color: #111;
-    background-image: url(intro.jpg);
+    background-image: url(./assets/images/intro.jpg);
     color: #fff;
   }
   
@@ -110,7 +110,7 @@ body {
   }
   
   .day-3 {
-    background-image: url(day-3.jpg);
+    background-image: url(./assets/images/day-3.jpg);
   }
   
   .day {
@@ -154,7 +154,7 @@ body {
     width: 64px;
     height: 32px;
     
-    background-image: url(down-arrow.svg);
+    background-image: url(./assets/images/down-arrow.svg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -164,7 +164,7 @@ body {
   }
   
   .scroll-to-intro {
-    background-image: url(down-arrow-light.svg);
+    background-image: url(./assets/images/down-arrow-light.svg);
   }
   
   @media (max-width: 640px) {
